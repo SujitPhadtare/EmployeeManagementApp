@@ -17,6 +17,8 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+        List<Employee> emps = DBManager.GetAllEmployees();
+        this.ViewData["emp"] = emps;
         return View();
     }
 
@@ -30,17 +32,27 @@ public class HomeController : Controller
 
     public IActionResult Register()
     {
-        return View();
+        Employee employee = new Employee();
+        return View(employee);
     }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+    // public IActionResult Privacy()
+    // {
+    //     return View();
+    // }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+    // public IActionResult Error()
+    // {
+    //     return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+    // }
+    [HttpPost]
+    public IActionResult Register(Employee emp)
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        if (DBManager.Insert(emp))
+        {
+            return RedirectToAction("index");
+        }
+        return View();
     }
 }

@@ -8,9 +8,9 @@
 <div class="text-center">
     <h1 class="display-4">List of Employes</h1>
     @{
-        List<Employee> emps = DBManager.GetAllEmployees();
+        List<Employee> emps = (List<Employee>)ViewData["emp"];
         <ol>
-            @foreach (Employee emp in emps)
+            @foreach(Employee emp in emps)
             {
                 <li><a href="/home/details/@emp.Id">@emp.Name</a></li>
             }

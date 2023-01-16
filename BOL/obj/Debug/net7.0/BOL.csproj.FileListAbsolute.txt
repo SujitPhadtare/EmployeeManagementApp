@@ -1,0 +1,12 @@
+D:\github\EmployeeManagementApp\BOL\bin\Debug\net7.0\BOL.deps.json
+D:\github\EmployeeManagementApp\BOL\bin\Debug\net7.0\BOL.dll
+D:\github\EmployeeManagementApp\BOL\bin\Debug\net7.0\BOL.pdb
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\BOL.csproj.AssemblyReference.cache
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\BOL.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\BOL.AssemblyInfoInputs.cache
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\BOL.AssemblyInfo.cs
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\BOL.csproj.CoreCompileInputs.cache
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\BOL.dll
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\refint\BOL.dll
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\BOL.pdb
+D:\github\EmployeeManagementApp\BOL\obj\Debug\net7.0\ref\BOL.dll

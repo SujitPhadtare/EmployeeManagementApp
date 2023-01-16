@@ -1,0 +1,20 @@
+@using DAL
+@using BOL
+
+@{
+    ViewData["Title"] = "Details Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Employee by Id</h1>
+    @{
+        Employee emp = (Employee)ViewData["emp"];
+        <ul>
+            <li>@emp.Id</li>
+            <li>@emp.Name</li>
+            <li>@emp.Email</li>
+            <li>@emp.Password</li>
+        </ul>
+    }
+
+</div>

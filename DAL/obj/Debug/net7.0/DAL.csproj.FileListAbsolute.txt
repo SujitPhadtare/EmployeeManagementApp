@@ -1,0 +1,15 @@
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\github\EmployeeManagementApp\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\github\EmployeeManagementApp\DAL\bin\Debug\net7.0\DAL.dll
+D:\github\EmployeeManagementApp\DAL\bin\Debug\net7.0\DAL.pdb
+D:\github\EmployeeManagementApp\DAL\bin\Debug\net7.0\BOL.dll
+D:\github\EmployeeManagementApp\DAL\bin\Debug\net7.0\BOL.pdb
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.csproj.CopyComplete
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.dll
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\DAL.pdb
+D:\github\EmployeeManagementApp\DAL\obj\Debug\net7.0\ref\DAL.dll

@@ -19,7 +19,3 @@ name varchar(20),<br/>
 email varchar(20),<br/>
 password varchar(20)<br/>
 );
-
-insert into employees values(1,"sujit","sujit@gmail.com","sujit@123");<br/>
-insert into employees values(2,"shikha","shikha@gmail.com","shikha@123");
-
